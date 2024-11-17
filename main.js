@@ -11,7 +11,9 @@ function login() {
     if (username === validUsername && password === validPassword) {
         alert("¡Inicio de sesión exitoso!");
         errorElement.textContent = ""; // Limpiar mensaje de error
+        window.location.href = "home.html";
     } else {
         errorElement.textContent = "Usuario o contraseña incorrectos.";
     }
+
 }
