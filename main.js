@@ -7,7 +7,7 @@ document.addEventListener("change", (e)=>{
         if($password.value !== "" && $username.value !== ""){
             e.preventDefault();
             window.location.href = "home.html";
-            
+
         }
     }
 })
