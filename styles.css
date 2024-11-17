@@ -76,3 +76,30 @@ h1{
     font-size: 16px;
     text-decoration: underline;
   }
+
+  .cerrars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centrado vertical y horizontal */
+}
+  .botonc {
+    width: auto; /* Ajusta el ancho según el contenido */
+    padding: 12px 24px; /* Mejor margen interno */
+    background: #dae674;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid black; /* Borde visible */
+    border-radius: 8px; /* Esquinas redondeadas */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave */
+    text-decoration: none; /* Quita decoraciones de texto */
+}
+
+.botonc:hover {
+    background: #c5d155; /* Cambia color al pasar el ratón */
+    text-decoration: underline; /* Subrayado en hover */
+    transform: scale(1.1); /* Aumenta tamaño ligeramente */
+}
+
