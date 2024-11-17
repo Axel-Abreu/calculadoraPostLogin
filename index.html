@@ -10,10 +10,11 @@
     <h1>Inserte sus datos </h1>
     <section class="form-register">
     <label for="username">Username</label>
-    <input class="controls" type="text" name="correo" id="username" placeholder="Ingrese Su Correo" required>
+    <input class="controls" type="text"  id="username" placeholder="Ingrese Su Correo" required>
     <label for="password">Password</label>
-    <input class="controls" type="password" name="Contraseña" id="password" placeholder="Ingrese Su Contraseña" required>
-    <button class="botons" type="submit" id="submit">Registrar</button>
+    <input class="controls" type="password"  id="password" placeholder="Ingrese Su Contraseña" required>
+    <button onclick="login()" class="botons" type="submit" id="submit">Registrar</button>
+    <p id="error" class="error"></p>
     </section>
     <script src="main.js"></script>
 </body>
